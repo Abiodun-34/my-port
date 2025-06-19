@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-three/drei": "^9.88.0", 
-    "@react-three/fiber": "^8.15.0", 
+    "@react-three/drei": "9.88.0",
+    "@react-three/fiber": "8.15.0",
     "@tailwindcss/vite": "^4.1.7",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.17.3",
@@ -22,7 +22,7 @@
     "react-router-dom": "^7.6.1",
     "react-tilt": "^1.0.2",
     "tailwindcss": "^4.1.7",
-    "three": "^0.176.0",
+    "three": "0.138.0",
     "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {
