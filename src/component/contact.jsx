@@ -19,7 +19,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-gray-800 pb-0 min-h-[calc(100vh-80px)]"> 
+    <section className="bg-gray-800 pb-0 min-h-[calc(100vh-80px)] mb-0"> 
       {/* Main container with equal columns */}
       <div className="flex flex-col lg:flex-row justify-between gap-8 w-full max-w-7xl mx-auto pt-8">
         

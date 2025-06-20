@@ -26,7 +26,7 @@ const About = () => {
       <h1 className="tracking-tight font-light text-2xl md:text-5xl text-white pl-10">Introduction</h1>
       <p className="tracking-tight font-extrabold text-4xl md:text-9xl pt-5 text-white pl-12">Overview</p>
 
-      <div className="tracking-tight font-light mt-6 text-xl md:text-3xl text-white text-justify grid grid-cols-1 lg:grid-cols-2 pl-15">
+      <div className="tracking-tight font-light mt-6 text-xl md:text-3xl text-white text-justify grid grid-cols-1 lg:grid-cols-2 gap-8 pl-15">
         <Typewriter
           options={{
             strings: [
@@ -59,7 +59,7 @@ Let’s build something cool.`
       </div>
 
               {/* Image Grid Section */}
-          <div className="w-full mt-12 mb-0">
+          <div className="w-full flex items-center mt-12 mb-0">
             <div 
               data-aos="fade-right"
               data-aos-delay="200"

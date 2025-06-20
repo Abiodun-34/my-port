@@ -12,7 +12,7 @@ export const projects = [
     id: 2,
     title: "Notepad",
     description: "An online notepad that allows users to schedule the activites of each day enabling user auth on local server.",
-    image: "/public/backgroun.png",
+    image: "/public/backgroun.webp",
     tech: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://abiodun-34.github.io/mytodo/",
     codeUrl: "#"
@@ -21,7 +21,7 @@ export const projects = [
     id: 3,
     title: "Traveltour",
     description: "Traveltour is an online platform for easy booking and arangement vacation and tour.",
-    image: "/public/1.PNG",
+    image: "/public/1.webp",
     tech: ["React", "Tailwind"],
     demoUrl: "#",
     codeUrl: "#"
@@ -39,7 +39,7 @@ export const projects = [
     id: 5,
     title: "Landing Page",
     description: "Youtube tutorial.",
-    image: "/public/2.PNG",
+    image: "/public/2.webp",
     tech: ["React", "Tailwind"],
     demoUrl: "#",
     codeUrl: "#"

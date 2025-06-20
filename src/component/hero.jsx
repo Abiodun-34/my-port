@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <div className="bg-gray-800 relative min-h-screen bg-center bg-no-repeat bg-cover pt-16 md:pt-20">
+      <div className="bg-gray-800 relative bg-center bg-no-repeat bg-cover max-h-full min-h-[60vh] py-8 md:py-16 pt-16 md:pt-20">
       <div className="container mx-auto flex flex-col h-full px-4">
         {/* Grid with 2 rows */}
         <div className="grid grid-rows-[1fr_auto] gap-6 h-full w-full">
