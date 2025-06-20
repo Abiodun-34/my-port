@@ -1,1 +1,5 @@
 @import "tailwindcss";
+@media (max-width: 768px) {
+  .text-9xl { font-size: 4rem; }
+  .text-5xl { font-size: 2.5rem; }
+}
