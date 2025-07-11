@@ -23,7 +23,7 @@ export const projects = [
     description: "Traveltour is an online platform for easy booking and arangement vacation and tour.",
     image: "/1.webp",
     tech: ["React", "Tailwind"],
-    demoUrl: "#",
+    demoUrl: "https://mytou.netlify.app/",
     codeUrl: "#"
   },
   {
