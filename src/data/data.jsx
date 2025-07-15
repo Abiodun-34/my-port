@@ -32,7 +32,7 @@ export const projects = [
     description: "Atlantic pharmacy is a full-featured online pharmacy with cart functionality and payment processing that enables patient to order for their medication and supports a delivery services option .",
     image: "/3.PNG",
     tech: ["React", "Tailwind"],
-    demoUrl: "#",
+    demoUrl: "https://mi-pharm.netlify.app/",
     codeUrl: "#"
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
     description: "A full-featured online store with cart functionality and payment processing.",
     image: "/4.PNG",
     tech: ["React", "Tailwind"],
-    demoUrl: "#",
+    demoUrl: "https://shopshow.netlify.app/",
     codeUrl: "#"
   },
 ];
