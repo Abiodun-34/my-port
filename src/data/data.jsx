@@ -15,7 +15,7 @@ export const projects = [
     image: "/backgroun.webp",
     tech: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://abiodun-34.github.io/mytodo/",
-    codeUrl: "#"
+    codeUrl: "https://github.com/Abiodun-34/todolist.git"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const projects = [
     image: "/1.webp",
     tech: ["React", "Tailwind"],
     demoUrl: "https://mytou.netlify.app/",
-    codeUrl: "#"
+    codeUrl: "https://github.com/Abiodun-34/tour.git"
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const projects = [
     image: "/3.PNG",
     tech: ["React", "Tailwind"],
     demoUrl: "https://mi-pharm.netlify.app/",
-    codeUrl: "#"
+    codeUrl: "https://github.com/Abiodun-34/pharm.git"
   },
   {
     id: 5,
@@ -41,8 +41,8 @@ export const projects = [
     description: "Youtube tutorial.",
     image: "/2.webp",
     tech: ["React", "Tailwind"],
-    demoUrl: "#",
-    codeUrl: "#"
+    demoUrl: "https://mi-demo.netlify.app/",
+    codeUrl: "https://github.com/Abiodun-34/Landing-Page.git"
   },
   {
     id: 6,
