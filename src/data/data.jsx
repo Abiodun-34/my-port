@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 2,
+    id: 1,
     title: "Notepad",
     description: "An online notepad that allows users to schedule the activites of each day enabling user auth on local server.",
     image: "/backgroun.webp",
@@ -9,7 +9,7 @@ export const projects = [
     codeUrl: "https://github.com/Abiodun-34/todolist.git"
   },
   {
-    id: 3,
+    id: 2,
     title: "Traveltour",
     description: "Traveltour is an online platform for easy booking and arangement vacation and tour.",
     image: "/1.webp",
@@ -18,7 +18,7 @@ export const projects = [
     codeUrl: "https://github.com/Abiodun-34/tour.git"
   },
   {
-    id: 1,
+    id: 3,
     title: "elyscianscents E-commerce Store",
     description: "A full-featured Fragrance online store with cart functionality and payment processing.",
     image: "/elly.PNG",
