@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-      <div className="bg-gray-800 relative bg-center bg-no-repeat bg-cover max-h-full min-h-[60vh] py-8 md:py-16 pt-16 md:pt-20">
+      <div className="bg-blue-300 relative bg-center bg-no-repeat bg-cover max-h-full min-h-[60vh] py-8 md:py-16 pt-16 md:pt-20">
       <div className="container mx-auto flex flex-col h-full px-4">
         {/* Grid with 2 rows */}
         <div className="grid grid-rows-[1fr_auto] gap-6 h-full w-full">
@@ -21,9 +21,9 @@ const Hero = () => {
                 <Typewriter
                   options={{
                     strings: [
-                      `I <span style="color:#f97316">Create</span>, 
-                       <span style="color:#f97316">Build</span>, 
-                       and write scalable <span style="color:#f97316">Code</span> for fun.`],
+                      `I <span style="color:#000000">Create</span>, 
+                       <span style="color:#000000">Build</span>, 
+                       and write scalable <span style="color:#000000">Code</span> for fun.`],
                     autoStart: true,
                     loop: true,
                     delay: 50,

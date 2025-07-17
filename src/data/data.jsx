@@ -15,7 +15,7 @@ export const projects = [
     image: "/backgroun.webp",
     tech: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://abiodun-34.github.io/mytodo/",
-    codeUrl: "#"
+    codeUrl: "https://github.com/Abiodun-34/todolist.git"
   },
   {
     id: 3,
@@ -23,8 +23,8 @@ export const projects = [
     description: "Traveltour is an online platform for easy booking and arangement vacation and tour.",
     image: "/1.webp",
     tech: ["React", "Tailwind"],
-    demoUrl: "#",
-    codeUrl: "#"
+    demoUrl: "https://mytou.netlify.app/",
+    codeUrl: "https://github.com/Abiodun-34/tour.git"
   },
   {
     id: 4,
@@ -32,8 +32,8 @@ export const projects = [
     description: "Atlantic pharmacy is a full-featured online pharmacy with cart functionality and payment processing that enables patient to order for their medication and supports a delivery services option .",
     image: "/3.PNG",
     tech: ["React", "Tailwind"],
-    demoUrl: "#",
-    codeUrl: "#"
+    demoUrl: "https://mi-pharm.netlify.app/",
+    codeUrl: "https://github.com/Abiodun-34/pharm.git"
   },
   {
     id: 5,
@@ -41,8 +41,8 @@ export const projects = [
     description: "Youtube tutorial.",
     image: "/2.webp",
     tech: ["React", "Tailwind"],
-    demoUrl: "#",
-    codeUrl: "#"
+    demoUrl: "https://mi-demo.netlify.app/",
+    codeUrl: "https://github.com/Abiodun-34/Landing-Page.git"
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ export const projects = [
     description: "A full-featured online store with cart functionality and payment processing.",
     image: "/4.PNG",
     tech: ["React", "Tailwind"],
-    demoUrl: "#",
+    demoUrl: "http://mi-stor.netlify.app/",
     codeUrl: "#"
   },
 ];

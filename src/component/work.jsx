@@ -27,7 +27,7 @@ const item = {
 
 const Work = () => {
   return (
-    <section className="bg-gray-800 w-full py-16 px-6">
+    <section className="bg-blue-300 w-full py-16 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Animated header */}
         <motion.div
@@ -36,10 +36,10 @@ const Work = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-amber-500 text-3xl md:text-5xl font-bold mb-4">
+          <h2 className="text-black text-3xl md:text-5xl font-bold mb-4">
             My Projects
           </h2>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-700 font-bold text-lg max-w-2xl mx-auto">
             Here are some of my recent works. Each project was built to solve
             specific problems and improve my skills.
           </p>

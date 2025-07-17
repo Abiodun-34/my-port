@@ -10,16 +10,20 @@ const Contact = () => {
     emailjs.sendForm('service_xkfm8xh', 'template_4jp4w7b', form.current, 'j15GxxiZD4dc7sQkK')
       .then((result) => {
         console.log('Email sent:', result.text);
+        // IMPORTANT: Replace alert() with a custom modal or message box for better UX in a React app.
         alert("Message sent successfully!");
         e.target.reset();
       }, (error) => {
         console.error('Email error:', error.text);
+        // IMPORTANT: Replace alert() with a custom modal or message box.
         alert("Failed to send message. Please try again.");
       });
   };
 
   return (
-    <section className="bg-gray-800 pb-0 min-h-[calc(100vh-80px)] mb-0"> 
+    // Added pb-16 to create space below the contact section.
+    // Removed mb-0 to allow for default margins or further spacing if needed.
+    <section className="bg-blue-300 pb-16 min-h-[calc(100vh-80px)]">
       {/* Main container with equal columns */}
       <div className="flex flex-col lg:flex-row justify-between gap-8 w-full max-w-7xl mx-auto pt-8">
         

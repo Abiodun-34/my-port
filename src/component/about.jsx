@@ -22,22 +22,22 @@ const ImageList = [
 
 const About = () => {
   return (
-    <div className="bg-gray-800 relative min-h-screen bg-center bg-no-repeat bg-cover pt-10 px-6 md:pt-20">
-      <h1 className="tracking-tight font-light text-2xl md:text-5xl text-white pl-10">Introduction</h1>
-      <p className="tracking-tight font-extrabold text-4xl md:text-9xl pt-5 text-white pl-12">Overview</p>
+    <div className="bg-blue-300 relative min-h-screen bg-center bg-no-repeat bg-cover pt-10 px-6 md:pt-20">
+      <h1 className="tracking-tight font-bold text-2xl md:text-5xl text-white pl-10">Introduction</h1>
+      <p className="tracking-tight font-extrabold text-4xl md:text-9xl pt-5 text-black pl-12">Overview</p>
 
-      <div className="tracking-tight font-light mt-6 text-xl md:text-3xl text-white text-justify grid grid-cols-1 lg:grid-cols-2 gap-8 pl-15">
+      <div className="tracking-tight font-bold mt-6 text-xl md:text-3xl text-white text-justify grid grid-cols-1 lg:grid-cols-2 gap-8 pl-15">
         <Typewriter
           options={{
             strings: [
-              `Hey there! I’m Abiodun a frontend developer who fell in love with code, one div at a time.
-No bootcamps. No formal classes. Just me, my curiosity, and an ever-growing stack of browser tabs. 
-I taught myself the languages of the web <strong style="color:orange; font-weight:800;">HTML, CSS, Tailwind, JavaScript, React, Git, GitHub and Bootstrap</strong>
-and discovered a passion for building clean, responsive, and intuitive user interfaces. 
-For me, frontend development is like solving a beautiful puzzle: structure, style, interaction all coming together to bring ideas to life. 
-I thrive on turning static designs into dynamic experiences, with a focus on performance, usability, and a little bit of wow ✨. 
-Whether it’s coding out sleek landing pages or crafting full-blown web apps, I’m here to create things that look great and feel even better to use.
-Let’s build something cool.`
+              `Hi, I’m Abiodun a self-taught frontend developer passionate about crafting solution-driven web experiences, one div at a time.
+No bootcamps, no formal training just relentless curiosity and a browser full of tabs.
+I’ve taught myself the core technologies of the web: <strong style="color: black; font-weight:800;">HTML, CSS, Tailwind, JavaScript, React, Git, GitHub, and Bootstrap</strong>
+and along the way, discovered a deep love for building clean, responsive, and intuitive user interfaces.
+For me, frontend development is like solving a beautiful puzzle: combining structure, style, and interactivity to bring ideas to life.
+I thrive on transforming static designs into dynamic, user-friendly experiences, with a sharp focus on performance, accessibility, and just a bit of wow ✨.
+Whether it’s sleek landing pages or full-scale web apps, I’m here to build digital experiences that not only look great — but feel great to use.
+Let’s build something amazing.`
             ],
             autoStart: true,
             loop: true,
