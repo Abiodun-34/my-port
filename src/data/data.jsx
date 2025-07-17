@@ -50,7 +50,7 @@ export const projects = [
     description: "A full-featured online store with cart functionality and payment processing.",
     image: "/4.PNG",
     tech: ["React", "Tailwind"],
-    demoUrl: "https://shopshow.netlify.app/",
+    demoUrl: "http://mi-stor.netlify.app/",
     codeUrl: "#"
   },
 ];
