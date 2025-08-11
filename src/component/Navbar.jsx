@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Menu as MenuIcon, X } from "lucide-react"; 
+import { Menu as MenuIcon, X } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "../assets/up.jpg"; 
+import logo from "../assets/up.jpg";
 
 
 
@@ -30,7 +30,7 @@ const menuItems = [
   {
     id: 5,
     name: "RESUME",
-    link: "/Resume",
+    link: "/resume",
   },
 ];
 
