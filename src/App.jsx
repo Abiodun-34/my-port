@@ -19,17 +19,12 @@ function App() {
       <div className="relative z-0 bg-primary">
         {/* Navbar appears on all pages */}
         <Navbar />
-        
+
         {/* Main content area that changes with routes */}
         <Routes>
           <Route path="/" element={
             <>
-              <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-                <Hero />
-              </div>
-              <About />
-              <Work />
-              <Contact />
+              <Hero />
             </>
           } />
           <Route path="/about" element={<About />} />
