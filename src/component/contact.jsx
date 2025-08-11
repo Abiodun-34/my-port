@@ -23,7 +23,7 @@ const Contact = () => {
   return (
     // Added pb-16 to create space below the contact section.
     // Removed mb-0 to allow for default margins or further spacing if needed.
-    <section className="bg-blue-300 min-h-[calc(100vh-80px)]">
+    <section className="bg-blue-300 justify-cnter items-center pb-16 min-h-[calc(100vh-80px)]">
       {/* Main container with equal columns */}
       <div className="flex-1 justify-center items-center w-full max-w-7xl mx-auto pt-8">
 
