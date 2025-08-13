@@ -27,7 +27,7 @@ const item = {
 
 const Work = () => {
   return (
-    <section className="bg-blue-300 w-full py-16 px-6">
+    <section className=" w-full py-16 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Animated header */}
         <motion.div
@@ -134,5 +134,6 @@ const Work = () => {
     </section>
   );
 };
+
 
 export default Work;
